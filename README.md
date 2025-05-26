@@ -1,4 +1,4 @@
-# React Learning Journey 🚀
+# React Lab 🚀
 
 Welcome! This repository documents my journey of learning React — from fundamentals to real-world project patterns.
 
