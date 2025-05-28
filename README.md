@@ -62,9 +62,17 @@ npm start
 To scaffold a new React project in one of the subdirectories (e.g., `02-hooks/use-reducer-demo`):
 
 ```bash
-cd 02-hooks
-npm create vite@latest use-reducer-demo -- --template react
-cd use-reducer-demo
+cd new_project
+npm create vite@latest . -- --template react
+npm install
+npm run dev
+```
+
+or
+
+```shell
+npm create vite@latest new_project -- --template react
+cd new_project
 npm install
 npm run dev
 ```
